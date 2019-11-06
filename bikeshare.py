@@ -66,12 +66,23 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         try:
+<<<<<<< HEAD
             day = input('\nWhich day of the week you wish to explore; Enter as Monday, Tuesday..etc, enter "all" to  include all\n').lower()
 
+||||||| merged common ancestors
+            day = input('\nWhich day of the week you wish to explore; Enter as Monday, Tuesday..etc, enter "all" to  include all\n').lower()
+            
+=======
+            day = input('\nWhich day of the week you wish to explore; Enter as Monday, Tuesday..etc, enter "all" to consider all\n').lower()
+
+>>>>>>> refactoring
             #Check input validity
             if day.isalpha():
                 if (day in days) or (day == 'all'):
                     break
+                else:
+                    print('\nInvalid input, check spelling or day \n')
+                    continue
             else:
                 print('\nInvalid input, please try again\n')
                 continue
