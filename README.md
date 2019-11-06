@@ -8,7 +8,7 @@ Bikeshare Data Analysis
 The program provides analytical insights into bikeshare data
 
 ### Files used
-chicago.csv, newyork.csv, washington.csc,bikeshare.py
+chicago.csv, newyork.csv, washington.csc, bikeshare.py
 
 ### Credits
-Udacity and the Internet :)
+Udacity , the Internet and w3resource :)
